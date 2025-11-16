@@ -9,5 +9,8 @@ jobs:
   Rockchip-iStoreOS:
     uses: ./.github/workflows/Rockchip-iStoreOS.yml
 
+  X86_64-iStoreOS:
+    uses: ./.github/workflows/X86_64-iStoreOS.yml
+    
   Delete-Old-Workflows:
     uses: ./.github/workflows/Delete-Old-Workflows.yml
