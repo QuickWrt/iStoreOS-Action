@@ -46,7 +46,7 @@ git clone --depth=1 https://github.com/sbwml/packages_lang_golang feeds/packages
 
 # SSRP & Passwall
 rm -rf feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
-git clone https://$github/sbwml/openwrt_helloworld package/new/helloworld -b v5
+git clone https://github.com/sbwml/openwrt_helloworld package/new/helloworld -b v5
 
 # OpenList 
 git clone --depth=1 https://github.com/sbwml/luci-app-openlist2 package/openlist
