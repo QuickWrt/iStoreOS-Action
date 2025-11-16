@@ -1,4 +1,4 @@
-name: Rockchip-iStoreOS
+name: X86_64-iStoreOS
 
 on:
   workflow_dispatch:
