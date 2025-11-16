@@ -61,5 +61,9 @@ git clone --depth=1 https://github.com/sirpdboy/luci-app-adguardhome package/luc
 # Lucky
 git clone --depth=1 https://github.com/gdy666/luci-app-lucky package/luci-app-lucky
 
+# 流量监控
+git clone --depth=1 https://github.com/timsaya/luci-app-bandix package/luci-app-bandix
+git clone --depth=1 https://github.com/timsaya/openwrt-bandix package/openwrt-bandix
+
 ./scripts/feeds update -a
 ./scripts/feeds install -a
