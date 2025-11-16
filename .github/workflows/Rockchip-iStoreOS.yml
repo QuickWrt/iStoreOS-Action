@@ -11,6 +11,7 @@ env:
   REPO_BRANCH: istoreos-24.10
   CONFIG_FILE: configs/rockhip.config
   DIY_SCRIPT: scripts/diy-script.sh
+  FEEDS_CONF: scripts/feeds.conf.default
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
@@ -65,6 +66,7 @@ jobs:
       run: |
         df -hT $GITHUB_WORKSPACE
         git clone $REPO_URL -b $REPO_BRANCH openwrt
+        [ -e $FEEDS_CONF ] && mv $FEEDS_CONF openwrt/feeds.conf.default
         cd openwrt
         echo "OPENWRT_PATH=$PWD" >> $GITHUB_ENV
         COMMIT_AUTHOR=$(git show -s --date=short --format="作者: %an")
