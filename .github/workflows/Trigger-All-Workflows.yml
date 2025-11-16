@@ -1,0 +1,13 @@
+name: Trigger-All-Workflows
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 20 * * 5'
+    
+jobs:
+  Rockchip-iStoreOS:
+    uses: ./.github/workflows/Rockchip-iStoreOS.yml
+
+  Delete-Old-Workflows:
+    uses: ./.github/workflows/Delete-Old-Workflows.yml
