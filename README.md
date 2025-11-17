@@ -1,5 +1,4 @@
 <div align="center">
-<img src="images/iStoreOS.png" alt="logo" width="200" height="200" align="right">
 <h1>OpenWrt — 多设备固件云编译</h1>
 
 <img src="https://img.shields.io/github/downloads/QuickWrt/iStoreOS-Action/total.svg?style=for-the-badge&color=32C955"/>
