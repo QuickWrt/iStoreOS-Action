@@ -16,6 +16,10 @@ sed -i 's/ucidef_set_hostname "iStoreOS"/ucidef_set_hostname "ZeroWrt"/' package
 # OpenWrt 默认的启动横幅文件
 cp -f $GITHUB_WORKSPACE/scripts/banner package/base-files/files/etc/banner
 
+# 私有源密钥文件
+mkdir -p files/root
+cp -f $GITHUB_WORKSPACE/scripts/key-build.pub files/root/key-build.pub
+
 # 修复 Rust 错误
 sed -i 's/ci-llvm=true/ci-llvm=false/g' feeds/packages/lang/rust/Makefile
 
