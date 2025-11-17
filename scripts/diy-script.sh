@@ -19,13 +19,6 @@ cp -f $GITHUB_WORKSPACE/scripts/banner package/base-files/files/etc/banner
 # 修复 Rust 错误
 sed -i 's/ci-llvm=true/ci-llvm=false/g' feeds/packages/lang/rust/Makefile
 
-# 密钥文件
-curl -Os https://openwrt.kejizero.xyz/openwrt/patch/key.tar.gz && tar zxf key.tar.gz && rm -f key.tar.gz
-
-# kenrel 版本
-sed -ie 's/^\(.\).*vermagic$/\1cp $(TOPDIR)\/.vermagic $(LINUX_DIR)\/.vermagic/' include/kernel-defaults.mk
-grep HASH include/kernel-6.6 | awk -F'HASH-' '{print $2}' | awk '{print $1}' | md5sum | awk '{print $1}' > .vermagic
-
 # TTYD
 sed -i 's/services/system/g' feeds/luci/applications/luci-app-ttyd/root/usr/share/luci/menu.d/luci-app-ttyd.json
 sed -i '3 a\\t\t"order": 50,' feeds/luci/applications/luci-app-ttyd/root/usr/share/luci/menu.d/luci-app-ttyd.json
