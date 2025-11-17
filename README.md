@@ -54,10 +54,6 @@
 <details>
 <summary><b>&nbsp;X86、R2S、R4S 等软路由插件预览</b></summary>
 <br/>
-</details>
-　└── <b>首页</b>
- </details>
-　└── <b>网络向导</b>
 <details>
 <summary><b>├── 状态</b></summary>
 　├── 概况<br/>
@@ -87,50 +83,33 @@
 　├── Argon 主题设置<br/>
 　└── 重启
 </details>
- </details>
-　└── <b>iStore 商店</b>
-<details>
-<summary><b>├── 服务</b></summary>
-　├── PassWall<br/>
-　├── PassWall2<br/>
-　├── Hello World<br/>
-　├── iKoolProxy 滤广告<br/>
-　├── V2ray 服务器<br/>
-　├── 广告屏蔽大师 Plus+<br/>
-　├── ShadowSocksR Plus+<br/>
-　├── AdGuard Home<br/>
-　├── 应用过滤<br/>
-　├── MosDNS<br/>
-　├── 全能推送<br/>
-　├── 微信推送<br/>
-　├── 上网时间控制<br/>
-　├── 解锁网易云灰色歌曲<br/>
-　├── OpenClash<br/>
-　├── 动态 DNS<br/>
-　├── MultiSD_Lite<br/>
-　├── SmartDNS<br/>
-　├── 网络唤醒<br/>
-　├── 迅雷快鸟<br/>
-　├── Frps<br/>
-　├── UU游戏加速器<br/>
-　├── UPnP<br/>
-　├── KMS 服务器<br/>
-　├── AirPlay 2 音频接收<br/>
-　├── udpxy<br/>
-　├── Nps 内网穿透<br/>
-　├── uHTTPd<br/>
-　├── Frp 内网穿透<br/>
-　└── MWAN3 分流助手
-</details>
 <details>
 <summary><b>├── Docker</b></summary>
-　├── 概览<br/>
+　├── 配置<br/>
+　├── 概述<br/>
 　├── 容器<br/>
 　├── 镜像<br/>
 　├── 网络<br/>
-　├── 存储卷<br/>
-　├── 事件<br/>
-　└── 设置
+　├── 卷标<br/>
+　└── 事件
+</details>
+<details>
+<summary><b>├── 服务</b></summary>
+　├── PassWall<br/>
+　├── 应用过滤<br/>
+　├── Hmoeproxy<br/>
+　├── AdGuard Home<br/>
+　├── DDNSTO 远程控制<br/>
+　├── 易有云文件管理器<br/>
+　├── MosDNS<br/>
+　├── Lucky<br/>
+　├── 动态 DNS<br/>
+　├── 网络唤醒<br/>
+　├── Nikki<br/>
+　├── OpenList<br/>
+　├── 网络共享<br/>
+　├── SmartDNS 服务器<br/>
+　└── UPnP
 </details>
 <details>
 <summary><b>├── 网络存储</b></summary>
