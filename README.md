@@ -2,11 +2,6 @@
   <img width="400px" src="images/openwrt.png" />
 </p>
 
-<img src="https://img.shields.io/github/downloads/QuickWrt/iStoreOS-Action/total.svg?style=for-the-badge&color=32C955"/>
-<img src="https://img.shields.io/github/stars/QuickWrt/iStoreOS-Action.svg?style=for-the-badge&color=orange"/>
-<img src="https://img.shields.io/github/forks/QuickWrt/iStoreOS-Action.svg?style=for-the-badge&color=ff69b4"/>
-<img src="https://img.shields.io/github/license/QuickWrt/iStoreOS-Action.svg?style=for-the-badge&color=blueviolet"/>
-
 <p align="center">
   <img src="https://img.shields.io/github/downloads/QuickWrt/iStoreOS-Action/total.svg?style=for-the-badge&color=32C955"/>
   <img src="https://img.shields.io/github/stars/QuickWrt/iStoreOS-Action.svg?style=for-the-badge&color=orange"/>
