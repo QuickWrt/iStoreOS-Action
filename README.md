@@ -1,6 +1,6 @@
 <div align="center">
 <img width="768" src="https://cdn.jsdelivr.net/gh/QuickWrt/iStoreOS-Action/images/istoreos.png"/>
-<h1>OpenWrt — 多设备固件云编译</h1>
+<h1>iStoreOS-Action — 多设备固件云编译</h1>
 
 <img src="https://img.shields.io/github/downloads/QuickWrt/iStoreOS-Action/total.svg?style=for-the-badge&color=32C955"/>
 <img src="https://img.shields.io/github/stars/QuickWrt/iStoreOS-Action.svg?style=for-the-badge&color=orange"/>
