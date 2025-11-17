@@ -1,5 +1,6 @@
-<div align="center">
-<img width="768" src="images/openwrt.png"/>
+<p align="center">
+  <img width="400px" src="images/openwrt.png" />
+</p>
 
 <img src="https://img.shields.io/github/downloads/QuickWrt/iStoreOS-Action/total.svg?style=for-the-badge&color=32C955"/>
 <img src="https://img.shields.io/github/stars/QuickWrt/iStoreOS-Action.svg?style=for-the-badge&color=orange"/>
