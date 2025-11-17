@@ -49,3 +49,139 @@
 
 ## 近期更新 [![](https://img.shields.io/badge/-近期固件更新-FFFFFF.svg)](#近期更新-)
 🤣努力修复中……
+
+## 插件预览 [![](https://img.shields.io/badge/-固件插件及功能预览-FFFFFF.svg)](#插件预览-)
+<details>
+<summary><b>&nbsp;X86、R2S、R4S 等软路由插件预览</b></summary>
+<br/>
+</details>
+　└── <b>首页</b>
+ </details>
+　└── <b>网络向导</b>
+<details>
+<summary><b>├── 状态</b></summary>
+　├── 概况<br/>
+　├── 路由<br/>  
+　├── 防火墙<br/>
+　├── 系统日志<br/>
+　├── 系统进程<br/>
+　├── 实时信息<br/>
+　├── 蜂窝网络<br/>
+　├── WireGuard 状态<br/>
+</details>
+<details>
+<summary><b>├── 系统</b></summary>
+　├── 系统<br/>
+　├── 管理权<br/>
+　├── 软件包<br/>
+　├── 启动项<br/>
+　├── 计划任务<br/>
+　├── 挂载点<br/>
+　├── 终端<br/> 
+　├── 磁盘管理<br/>
+　├── 杂项管理<br/>  
+　├── LED 配置<br/>
+　├── 风扇控制<br/>
+　├── 备份/升级<br/>
+　├── 文件传输<br/>
+　├── Argon 主题设置<br/>
+　└── 重启
+</details>
+ </details>
+　└── <b>iStore 商店</b>
+<details>
+<summary><b>├── 服务</b></summary>
+　├── PassWall<br/>
+　├── PassWall2<br/>
+　├── Hello World<br/>
+　├── iKoolProxy 滤广告<br/>
+　├── V2ray 服务器<br/>
+　├── 广告屏蔽大师 Plus+<br/>
+　├── ShadowSocksR Plus+<br/>
+　├── AdGuard Home<br/>
+　├── 应用过滤<br/>
+　├── MosDNS<br/>
+　├── 全能推送<br/>
+　├── 微信推送<br/>
+　├── 上网时间控制<br/>
+　├── 解锁网易云灰色歌曲<br/>
+　├── OpenClash<br/>
+　├── 动态 DNS<br/>
+　├── MultiSD_Lite<br/>
+　├── SmartDNS<br/>
+　├── 网络唤醒<br/>
+　├── 迅雷快鸟<br/>
+　├── Frps<br/>
+　├── UU游戏加速器<br/>
+　├── UPnP<br/>
+　├── KMS 服务器<br/>
+　├── AirPlay 2 音频接收<br/>
+　├── udpxy<br/>
+　├── Nps 内网穿透<br/>
+　├── uHTTPd<br/>
+　├── Frp 内网穿透<br/>
+　└── MWAN3 分流助手
+</details>
+<details>
+<summary><b>├── Docker</b></summary>
+　├── 概览<br/>
+　├── 容器<br/>
+　├── 镜像<br/>
+　├── 网络<br/>
+　├── 存储卷<br/>
+　├── 事件<br/>
+　└── 设置
+</details>
+<details>
+<summary><b>├── 网络存储</b></summary>
+　├── 文件浏览器<br/>
+　├── 可道云<br/>
+　├── NFS 管理<br/>
+　├── 微力同步<br/>
+　├── Alist 文件列表<br/>
+　├── qBittorrent<br/>
+　├── USB 打印服务器<br/>
+　├── 硬盘休眠<br/>
+　├── 挂载 SMB 网络共享<br/>
+　├── 网络共享<br/>
+　├── FTP 服务器<br/>
+　├── Rclone<br/>
+　├── Aria2 配置<br/>
+　├── miniDLNA<br/>
+　└── Transmission
+</details>
+<details>
+<summary><b>├── VPN</b></summary>
+　├── N2N v2 VPN<br/>
+　├── SoftEther VPN 服务器<br/>
+　├── OpenVPN 服务器<br/>
+　├── PPTP VPN 服务器<br/>
+　├── IPSec VPN 服务器<br/>
+　└── ZeroTier
+</details>
+<details>
+<summary><b>├── 网络</b></summary>
+　├── 接口<br/>
+　├── DHCP/DNS<br/>
+　├── 主机名<br/>
+　├── IP/MAC 绑定<br/>
+　├── 静态路由<br/>
+　├── 防火墙<br/>
+　├── 诊断<br/>
+　├── Socat<br/>
+　├── SQM QoS<br/>
+　├── 网速控制<br/>
+　├── 多线多拨<br/>
+　├── 负载均衡<br/>
+　└── Turbo ACC 网络加速
+</details>
+<details>
+<summary><b>├── 带宽监控</b></summary>
+　├── 显示<br/>
+　├── 配置<br/>
+　├── 备份<br/>
+　├── 网速监控<br/>
+　└── 实时流量监测
+</details>
+　└── <b>退出</b>
+</details>
