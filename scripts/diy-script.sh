@@ -16,6 +16,9 @@ sed -i 's/ucidef_set_hostname "iStoreOS"/ucidef_set_hostname "ZeroWrt"/' package
 # OpenWrt 默认的启动横幅文件
 cp -f $GITHUB_WORKSPACE/scripts/banner package/base-files/files/etc/banner
 
+# 更改 Argon 主题背景
+cp -f $GITHUB_WORKSPACE/images/bg1.jpg feeds/third/luci-theme-argon/htdocs/luci-static/argon/img/bg1.jpg
+
 # 私有源密钥文件
 curl -Os https://opkg.kejizero.xyz/key-build.pub && tar zxf key.tar.gz && rm -f key.tar.gz
 
