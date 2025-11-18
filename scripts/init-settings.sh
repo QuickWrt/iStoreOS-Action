@@ -26,8 +26,7 @@ sed -i 's/root::0:0:99999:7:::/root:$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.:0:0:99999
 sed -i 's/root:::0:99999:7:::/root:$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.:0:0:99999:7:::/g' /etc/shadow
 
 # extra packages
-opkg-key add key-build.pub
-echo "src/gz openwrt_extras https://opkg.cooluc.com/openwrt-24.10/$(. /etc/openwrt_release ; echo $DISTRIB_ARCH)" >> /etc/opkg/customfeeds.conf
+echo "src/gz openwrt_extras https://opkg.kejizero.xyz/openwrt-24.10/$(. /etc/openwrt_release ; echo $DISTRIB_ARCH)" >> /etc/opkg/distfeeds.conf
 
 # diagnostics
 if [ $(uci -q get luci.diag.ping) = "openwrt.org" ]; then
