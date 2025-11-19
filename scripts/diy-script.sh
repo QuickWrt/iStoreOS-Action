@@ -20,7 +20,7 @@ cp -f $GITHUB_WORKSPACE/scripts/banner package/base-files/files/etc/banner
 cp -f $GITHUB_WORKSPACE/images/bg1.jpg feeds/third/luci-theme-argon/htdocs/luci-static/argon/img/bg1.jpg
 
 # 私有源密钥文件
-curl -Os https://opkg.kejizero.xyz/key-build.pub && tar zxf key.tar.gz && rm -f key.tar.gz
+curl -Os https://openwrt.kejizero.xyz/openwrt/patch/key.tar.gz && tar zxf key.tar.gz && rm -f key.tar.gz
 
 # 修复 Rust 错误
 sed -i 's/ci-llvm=true/ci-llvm=false/g' feeds/packages/lang/rust/Makefile
